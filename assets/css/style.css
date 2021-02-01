@@ -1,0 +1,13 @@
+h1 {
+  height: 100vh;
+  color: #141756;
+  background: #8e8eda;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0; }
+
+@media screen and (max-width: 1024px) {
+  h1 {
+    color: #8e8eda;
+    background: #141756; } }

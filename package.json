@@ -1,0 +1,28 @@
+{
+  "name": "html-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run lite",
+    "lite": "lite-server",
+    "sass:watch": "node-sass -w assets/scss --o assets/css",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postcss:watch": "postcss -w assets/css/ --use autoprefixer -d assets/style/ --no-map"
+  },
+  "browserslist": [
+    ">0.2%",
+    "last 2 versions",
+    "ie 10"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.2.4",
+    "lite-server": "^2.6.1",
+    "node-sass": "^5.0.0",
+    "postcss": "^8.2.4",
+    "postcss-cli": "^8.3.1"
+  }
+}

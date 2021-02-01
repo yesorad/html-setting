@@ -1,0 +1,17 @@
+@import 'common/index';
+h1 {
+	height: 100vh;
+	color: $fontColor;
+	background: $bgColor;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+}
+
+@include tablet {
+	h1 {
+		color: $bgColor;
+		background: $fontColor;
+	}
+}
