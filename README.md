@@ -34,5 +34,6 @@ $ npm start [http://localhost:3000/]
 └── .gitignore
 ```
 
-<hr/>
-HTML 작업시 sass 및 autoprefixer 를 사용하기 위해 준비한 설정
+---
+
+> HTML 작업시 sass 및 autoprefixer 를 사용하기 위해 준비한 설정
