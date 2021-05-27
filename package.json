@@ -8,7 +8,7 @@
     "lite": "lite-server",
     "sass:watch": "node-sass -w assets/scss --o assets/css",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postcss:watch": "postcss -w assets/css/ --use autoprefixer -d assets/style/ --no-map"
+    "postcss:watch": "postcss -w assets/css/ --use autoprefixer -d static/style/ --no-map"
   },
   "browserslist": [
     ">0.2%",

@@ -33,7 +33,7 @@ $mob-s-width: 375px;
 
 // mobile
 @mixin mobile {
-	@media screen and (max-width: #{$tablet-s-width}) {
+	@media screen and (min-width: #{$tablet-s-width}) {
 		@content;
 	}
 }

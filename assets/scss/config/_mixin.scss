@@ -1,0 +1,16 @@
+@mixin ellipsis($width: 100%) {
+	width: $width;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+@mixin multiline-ellipsis($line, $height) {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: $line;
+	line-height: $height;
+	max-height: $height * $line;
+}
