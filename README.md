@@ -3,7 +3,7 @@
 ## node_module 설치
 
 ```
-$ npm install
+$ npm install 
 ```
 
 ## Sass Comfile (--watch) / autoprefixer (--watch)
