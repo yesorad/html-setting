@@ -26,7 +26,9 @@ $ npm start [http://localhost:3000/]
 |
 ├── assets
 |   ├── scss // 작업용 scss
-|   ├── css // scss 컴파일 한 css
+|   └── css // scss 컴파일 한 css
+|
+├── static
 |   └── style // autoprefixer 적용된 최종 css
 |
 ├── package.json
